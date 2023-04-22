@@ -323,7 +323,7 @@ class  AdvsState extends State<Advs> {
                       style: ElevatedButton.styleFrom(
                         primary: Colors.red[400],
                         padding: EdgeInsets.symmetric(horizontal: 20),),
-                      child: Text('Delete',),
+                      child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                     ),],),],)),
               decoration: BoxDecoration(borderRadius: BorderRadius.circular(10)
                 , color:Colors.white),

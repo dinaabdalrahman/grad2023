@@ -51,7 +51,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                  },
                  style: ElevatedButton.styleFrom(
-                   primary: Colors.red[400],
+                   primary: Colors.blue,
                    padding: EdgeInsets.symmetric(horizontal: 20),),
                  child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                ),],),
@@ -76,7 +76,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.red[400],
+                      primary: Colors.blue,
                       padding: EdgeInsets.symmetric(horizontal: 20),),
                     child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                   ),],),
@@ -100,7 +100,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.red[400],
+                      primary: Colors.blue,
                       padding: EdgeInsets.symmetric(horizontal: 20),),
                     child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                   ),],),
@@ -126,7 +126,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.red[400],
+                      primary: Colors.blue,
                       padding: EdgeInsets.symmetric(horizontal: 20),),
                     child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                   ),],),
@@ -151,7 +151,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.red[400],
+                      primary: Colors.Colors.blue,
                       padding: EdgeInsets.symmetric(horizontal: 20),),
                     child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                   ),],),
@@ -176,7 +176,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.red[400],
+                      primary: Colors.blue,
                       padding: EdgeInsets.symmetric(horizontal: 20),),
                     child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                   ),],),
@@ -200,7 +200,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.red[400],
+                      primary: Colors.blue,
                       padding: EdgeInsets.symmetric(horizontal: 20),),
                     child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                   ),],),
@@ -246,7 +246,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.red[400],
+                        primary: Colors.blue,
                         padding: EdgeInsets.symmetric(horizontal: 20),),
                       child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                     ),],),],)),
@@ -271,7 +271,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.red[400],
+                        primary: Colors.blue,
                         padding: EdgeInsets.symmetric(horizontal: 20),),
                       child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                     ),],),],)),
@@ -296,7 +296,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.red[400],
+                        primary: Colors.blue,
                         padding: EdgeInsets.symmetric(horizontal: 20),),
                       child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                     ),],),],)),
@@ -321,7 +321,7 @@ class  AdvsState extends State<Advs> {
 // Do something when pressed
                       },
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.red[400],
+                        primary: Colors.Colors.blue,
                         padding: EdgeInsets.symmetric(horizontal: 20),),
                       child: Text('Delete',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 13,color: Colors.black),),
                     ),],),],)),

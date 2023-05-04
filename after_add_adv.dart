@@ -111,7 +111,10 @@ class  After_add_adState extends State<After_add_ad> {
         title: Center(child: Text(" Advertisements          ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.black))),
         backgroundColor: Colors.white,
 
-        leading: TextButton(onPressed: () {},
+        leading: TextButton(onPressed: () {
+                    Navigator.of(context).pushNamed("pay");
+
+        },
             child: Text("Back",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 19),)),
 

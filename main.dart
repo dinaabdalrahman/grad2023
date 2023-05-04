@@ -12,6 +12,8 @@ import 'package:grad/doctorsearch.dart';
 import 'package:grad/doctorsignup.dart';
 import 'package:grad/userinfo.dart';
 import 'package:grad/after_delete_adv.dart';
+import 'package:grad/fawry.dart';
+
 
 
 import 'try.dart';
@@ -34,6 +36,8 @@ class MyApp extends StatelessWidget {
         "adv":(context) =>Nadvs(),
         "after add adv":(context) =>After_add_ad(),
         "after delete adv":(context) =>After_delete_ad(),
+        "pay for fawry":(context) =>Fawry(),
+
 
 
 

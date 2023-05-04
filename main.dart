@@ -37,6 +37,8 @@ class MyApp extends StatelessWidget {
         "after add adv":(context) =>After_add_ad(),
         "after delete adv":(context) =>After_delete_ad(),
         "pay for fawry":(context) =>Fawry(),
+        "determine adv":(context) =>Dete(),
+
 
 
 

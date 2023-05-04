@@ -112,7 +112,7 @@ class  After_add_adState extends State<After_add_ad> {
         backgroundColor: Colors.white,
 
         leading: TextButton(onPressed: () {
-                    Navigator.of(context).pushNamed("pay");
+                        Navigator.of(context).pushNamed("add");
 
         },
             child: Text("Back",

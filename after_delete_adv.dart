@@ -101,7 +101,10 @@ class  After_delete_adState extends State<After_delete_ad> {
         title: Center(child: Text(" Advertisements          ", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.black))),
         backgroundColor: Colors.white,
 
-        leading: TextButton(onPressed: () {},
+        leading: TextButton(onPressed: () {
+                  Navigator.of(context).pushNamed("adv");
+
+        },
             child: Text("Back",
               style: TextStyle(fontWeight: FontWeight.bold, fontSize: 19),)),
 

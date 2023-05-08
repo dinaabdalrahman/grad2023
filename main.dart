@@ -13,7 +13,6 @@ import 'package:grad/doctorsignup.dart';
 import 'package:grad/userinfo.dart';
 import 'package:grad/after_delete_adv.dart';
 import 'package:grad/fawry.dart';
-import 'package:grad/try_add.dart';
 
 
 import 'try.dart';

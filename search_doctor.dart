@@ -78,7 +78,8 @@ class  SeaState extends State<Sea> {
    "favorite":0,
      "image": "images/8.jpg"
 
-   }
+   },
+
   ];
   // This list holds the data for the list view
   List<Map<String, dynamic>> _foundDoctor = [];
@@ -110,6 +111,17 @@ class  SeaState extends State<Sea> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
+      floatingActionButton:FloatingActionButton.extended(
+
+          label: Row(
+            children: [Icon(Icons.add,color: Colors.black,), Text('Add',style: TextStyle(fontWeight: FontWeight.bold, fontSize: 25, color: Colors.black))],
+          ),
+          heroTag: 'uniqueTag',
+          onPressed: () {
+            Navigator.of(context).pushNamed("adding doctor");
+          }
+      ),
       appBar: AppBar(
         title: Center(child: Text(" Search         ", style: TextStyle(
             fontWeight: FontWeight.bold, fontSize: 25, color: Colors.black))),
@@ -130,7 +142,7 @@ class  SeaState extends State<Sea> {
                   onFieldSubmitted: (covariant){
                     setState(() {
                     });
-                    
+
                   },
                   cursorColor: Colors.cyan,
                   decoration: InputDecoration(
@@ -157,7 +169,12 @@ class  SeaState extends State<Sea> {
           ,),
 
         ),
-      body:Container(color:Colors.indigo[50],
+      body:InkWell(
+      onTap: (){
+    Navigator.of(context).pushNamed("after delete doctor");
+    },
+    child:
+      Container(color:Colors.indigo[50],
           child: _foundDoctor.isNotEmpty
               ?  ListView.builder(
                itemCount: _foundDoctor.length,
@@ -172,8 +189,18 @@ class  SeaState extends State<Sea> {
         Expanded( flex: 3,
           child: Column(
             children: [ListTile(title: Text(_foundDoctor[index]['name']),
-                trailing:Icon(Icons.favorite_border,color: Colors.blue,) ,
-                subtitle:Row(children: [Icon(Icons.star_half_outlined,color: Colors.blue,), Text(_foundDoctor[index]['reviews']),],)
+                trailing:
+                  Icon(Icons.favorite_border,color: Colors.blue,) ,
+
+                subtitle:Row(children: [Icon(Icons.star_half_outlined,color: Colors.blue,), Text(_foundDoctor[index]['reviews']),
+                  IconButton(
+                    icon: Icon(Icons.delete, color: Colors.red,),
+                    onPressed: () {
+                      data.remove(index);
+                    }
+
+                ),
+                ],)
             ),
               Text(_foundDoctor[index]['sub'],)],
 
@@ -185,7 +212,7 @@ class  SeaState extends State<Sea> {
               : const Text(
             'No results found Please try with diffrent search',
             style: TextStyle(fontSize: 24),
-          ),)
+          ),))
       ,bottomNavigationBar:BottomNavigationBar(
         type: BottomNavigationBarType.fixed,
         selectedItemColor: Colors.blue,
@@ -215,3 +242,4 @@ class  SeaState extends State<Sea> {
     );
 
   }}
+

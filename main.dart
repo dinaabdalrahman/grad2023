@@ -15,6 +15,17 @@ import 'package:grad/after_delete_adv.dart';
 import 'package:grad/fawry.dart';
 
 
+
+import 'add_patient.dart';
+import 'after_adding_patient.dart';
+import 'package:grad/after_delete_patient.dart';
+
+import 'package:grad/after_delete_doctor.dart';
+import 'package:grad/after_adding_doctor.dart';
+import 'package:grad/add_doctor.dart';
+
+
+
 import 'try.dart';
 void main() {
   runApp(MyApp());
@@ -37,6 +48,22 @@ class MyApp extends StatelessWidget {
         "after delete adv":(context) =>After_delete_ad(),
         "pay for fawry":(context) =>FawryPaymentPage(),
         "determine adv":(context) =>Dete(),
+        
+        
+        
+        
+        
+        "after delete patient":(context) =>Delete_patient(),
+        "after delete doctor":(context) =>Delete_Doctor(),
+
+        "after add doctor":(context) =>After_Add_doctor(),
+        "adding doctor":(context) =>Adding_Doctor(),
+
+
+        "adding patient":(context) =>Adding_Patient(),
+        "after add patient":(context) =>After_add_patient(),
+
+
 
 
 
